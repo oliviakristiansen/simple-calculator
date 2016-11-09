@@ -1,0 +1,8 @@
+#Ignore the node js modules
+node_modules/
+
+#Ignore the bower modules
+public/lib
+
+#Ignore the mac os meta files
+.DS_Store
