@@ -6,3 +6,7 @@ public/lib
 
 #Ignore the mac os meta files
 .DS_Store
+
+typings
+
+*.js
