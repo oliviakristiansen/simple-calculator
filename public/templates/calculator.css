@@ -1,0 +1,40 @@
+#background {
+    background: lightgray;
+    width: 400px;
+    height: 340px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    width: 90px;
+    height: 60px;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 15px 32px;
+    margin: 2px;
+    text-align: center;
+}
+
+#display {
+    display:block;
+   font-family: sans-serif;
+   width:375px;
+   height:45px;
+   margin:auto;
+   text-align: right;
+   background:#F4F1F1;
+   padding-top:20px;
+   font-size:40px;
+   margin: 10px;
+   position: center;
+   top:10px;
+   botton: 10px;
+}
+
+#operation {
+    background-color: gray;
+}

@@ -4,17 +4,18 @@
         <meta charset="utf-8">
         <title>A Simple Calculator</title>
     </head>
-    <body>
+    <body ng-app="App">
         <h1>Simple Calculator</h1>
 
         <nav>
             <a href ="/#/">Home</a>
-            <a href = "/#/About">About</a>
-            <a href = "/#/Contact">Contact</a>
-            <a href = "/#/Calculator">Calculator</a>
+            <a href = "/#/about">About</a>
+            <a href = "/#/contact">Contact</a>
+            <a href = "/#/calculator">Calculator</a>
         </nav>
 
-        
+        <div ui-view></div>
+
         <script src="/lib/angular/angular.js"></script>
         <script src="/lib/angular-ui-router/release/angular-ui-router.js"></script>
         <script src="/js/App.js"></script>

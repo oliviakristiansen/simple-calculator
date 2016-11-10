@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>simple calculator</title>
+        <link href="/templates/calculator.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+    <h1>{{ calculatorController.title }}</h1>
+
+    <div id="background">
+        <div id="display">{{ calculatorController.display }}</div>
+        <div id="calculator">
+            <button ng-click = "calculatorController.useValue (1)">1</button>
+            <button ng-click = "calculatorController.useValue (2)">2</button>
+            <button ng-click = "calculatorController.useValue (3)">3</button>
+            <button ng-click = "calculatorController.useValue (0)">0</button>
+        </div>
+        <div id="calculator">
+            <button ng-click = "calculatorController.useValue (4)">4</button>
+            <button ng-click = "calculatorController.useValue (5)">5</button>
+            <button ng-click = "calculatorController.useValue (6)">6</button>
+            <button id = "operation" ng-click = "calculatorController.useClear()">Clear</button>
+        </div>
+        <div id="calculator">
+            <button ng-click = "calculatorController.useValue (7)">7</button>
+            <button ng-click = "calculatorController.useValue (8)">8</button>
+            <button ng-click = "calculatorController.useValue (9)">9</button>
+            <button id = "operation" ng-click = "calculatorController.useEqual()">=</button>
+        </div>
+        <div id="calculator">
+            <button id ="operation" ng-click = "calculatorController.useOperationAdd()">+</button>
+            <button id= "operation" ng-click = "calculatorController.useOperationSubtract()">-</button>
+            <button id = "operation" ng-click = "calculatorController.useOperationMultiply()">X</button>
+            <button id = "operation" ng-click = "calculatorController.useOperationDivide()">/</button>
+        </div>
+    </p>
+
+    </body>
+</html>
